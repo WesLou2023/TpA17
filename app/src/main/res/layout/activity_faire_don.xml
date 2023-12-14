@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FaireDonActivity">
+
+    <ImageView
+        android:id="@+id/imageDonation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/baseline_money_24"
+        android:scaleType="centerCrop"
+        android:contentDescription="US"/>
+
+    <TextView
+        android:id="@+id/textDonationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageDonation"
+        android:text="Faire une Donation"
+        android:layout_marginTop="100dp"
+        android:textSize="24sp"
+        android:textColor="@color/CouleurPrincilale"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDonationTitle"
+        android:layout_marginTop="16dp"
+        android:hint="Montant de la donation"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@color/black"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/buttonDonate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAmount"
+        android:layout_marginTop="100dp"
+        android:text="Faire une Donation"
+        android:textColor="@android:color/white"
+        android:background="@color/CouleurPrincilale"
+        android:padding="16dp"/>
+
+</RelativeLayout >

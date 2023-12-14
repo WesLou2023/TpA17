@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_comite_gestion"
+        android:title="Comité de gestion"/>
+    <item
+        android:id="@+id/action_comite_soutien"
+        android:title="Comité de soutien"/>
+    <item
+        android:id="@+id/action_suivi_evaluation"
+        android:title="Suivi et évaluation"/>
+
+    <item
+        android:id="@+id/action_faire_don"
+        android:title="Faire un don"/>
+</menu>
